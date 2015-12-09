@@ -15,6 +15,7 @@ struct samnode {
         val = 0;
     }
 } node[MAXNODE], *root, *last;
+
 int size = 0;
 char s1[MAXN], s2[MAXN];
 inline void init() {
@@ -61,6 +62,7 @@ int main() {
         ans = max(ans, curlen);
         printf("%d\n",i);
         printf("%d\n", ans);
+        printf("%d\n", curlen);
     }
     printf("%d\n", ans);
 }
